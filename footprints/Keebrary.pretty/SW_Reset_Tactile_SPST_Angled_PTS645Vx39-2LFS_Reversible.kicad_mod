@@ -1,4 +1,4 @@
-(footprint "SW_Reset_Reversible_Tactile_SPST_Angled_PTS645Vx39-2LFS" (version 20211014) (generator pcbnew)
+(footprint "SW_Reset_Tactile_SPST_Angled_PTS645Vx39-2LFS_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 6299C75C)
   (descr "tactile switch SPST right angle, PTS645VL39-2 LFS")

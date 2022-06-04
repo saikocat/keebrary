@@ -1,4 +1,4 @@
-(footprint "Conn_Jack_3.5mm_TRRS_PJ-320A_Reversible" (version 20211014) (generator pcbnew)
+(footprint "Conn_Jack_3.5mm_TRRS_PJ-320A_SolderJumper_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 629A1C00)
   (descr "Solder-jumper reversible Jack 3.5mm TRRS THT")

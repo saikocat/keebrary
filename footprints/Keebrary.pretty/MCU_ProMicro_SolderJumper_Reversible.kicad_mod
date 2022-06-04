@@ -1,4 +1,4 @@
-(footprint "MCU_ProMicro_Reversible" (version 20211014) (generator pcbnew)
+(footprint "MCU_ProMicro_SolderJumper_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 629B8819)
   (descr "Solder-jumper reversible Pro Micro footprint KB2040")
