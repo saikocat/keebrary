@@ -1,8 +1,8 @@
-(footprint "TRRS_PJ-320A_Reversible" (version 20211014) (generator pcbnew)
+(footprint "Conn_Jack_3.5mm_TRRS_PJ-320A_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 629A1C00)
-  (descr "Solder-jumper reversible TRRS Socket THT")
-  (tags "TRRS PJ-320A reversible  solder jumper THT")
+  (descr "Solder-jumper reversible Jack 3.5mm TRRS THT")
+  (tags "Jack 3.5mm TRRS PJ-320A reversible solder jumper THT")
   (attr through_hole)
   (fp_text reference "J*" (at 0 -1.016) (layer "F.Fab")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -156,7 +156,7 @@
           (xy 0.6 -1)
         ) (width 0) (fill yes))
     ) (tstamp be4599c7-117b-43f3-954a-22a2a57d5bd8))
-  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/PJ-320A_Soldered.step"
+  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/Conn_Jack_3.5mm_TRRS_PJ-320A_Soldered.step"
     (offset (xyz 0 -8.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
