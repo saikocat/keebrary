@@ -1,10 +1,10 @@
 (footprint "MCU_ProMicro_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 629A1F57)
+  (tedit 629B8819)
   (descr "Solder-jumper reversible Pro Micro footprint KB2040")
   (tags "promicro ProMicro reversible solder jumper KB2040")
   (attr through_hole)
-  (fp_text reference "REF**" (at -16.256 -0.254 90) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 -16.66875 180) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 1148bfd6-f9b7-4d14-bf8c-c5a0d52b66c4)
   )
