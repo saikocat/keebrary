@@ -1,4 +1,4 @@
-(footprint "Diode_SMD_SOD-123_THT_7.62mm_Hybrid" (version 20211014) (generator pcbnew)
+(footprint "Diode_Hybrid_SOD-123_THT_7.62mm_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 629A1B86)
   (descr "Reversible diode footprint supports both through hole (1n4148 - 7.62mm) and smd (1n4148w sod-123) ")
