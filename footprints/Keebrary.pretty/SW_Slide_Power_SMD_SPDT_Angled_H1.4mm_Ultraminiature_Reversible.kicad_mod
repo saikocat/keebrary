@@ -1,4 +1,4 @@
-(footprint "SW_Power_Slide_SMD_SPDT_Angled_H1.4mm_Ultraminiature_Reversible" (version 20211014) (generator pcbnew)
+(footprint "SW_Slide_Power_SMD_SPDT_Angled_H1.4mm_Ultraminiature_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 629C8A50)
   (descr "SW_SPDT_PCM12, 1.4 (H) mm, 1.5/2.0mm-travel, Ultraminiature Surface Mount Slide Switch, right-angle, https://www.ckswitches.com/media/1424/pcm.pdf SMD")
