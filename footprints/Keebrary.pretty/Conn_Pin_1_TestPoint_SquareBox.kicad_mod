@@ -1,6 +1,6 @@
 (footprint "Conn_Pin_1_TestPoint_SquareBox" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A187ED)
+  (tedit 62A1FF1A)
   (descr "Resitance 3 pas")
   (tags "R")
   (autoplace_cost180 10)
@@ -26,19 +26,4 @@
   (fp_line (start -1 -1) (end -1 1) (layer "F.SilkS") (width 0.15) (tstamp 70a779b4-894f-434d-9ba2-6651c621199c))
   (fp_line (start 1 1) (end 1 -1) (layer "F.SilkS") (width 0.15) (tstamp dbcd87e6-956e-40b7-937c-0f9b8b346268))
   (pad "1" thru_hole circle (at 0 0) (size 1.397 1.397) (drill 0.8128) (layers *.Cu *.Mask "F.SilkS") (tstamp f1838d0c-f749-43b1-b02f-bdeae53dfab7))
-  (model "discret/resistor.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.3 0.3 0.3))
-    (rotate (xyz 0 0 0))
-  )
-  (model "Resistors_ThroughHole.3dshapes/Resistor_Horizontal_RM10mm.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 0.2 0.2 0.2))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KICAD6_3DMODEL_DIR}/Connector_Pin.3dshapes/Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork.wrl"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
