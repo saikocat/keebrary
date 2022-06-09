@@ -1,6 +1,6 @@
 (footprint "Display_OLED_SSD1306_128x64" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A0734D)
+  (tedit 62A2030F)
   (descr "OLED SSD1306 128x64 i2c")
   (tags "OLED SSD1306 128x64 i2c")
   (attr through_hole)
@@ -46,8 +46,13 @@
   (pad "3" thru_hole circle (at 1.27 -12) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 5c8b1bf6-f8c0-4f71-9ea0-e0ee5b44cf21))
   (pad "4" thru_hole circle (at 3.81 -12) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp c5a94cc2-ebf8-4bf0-99fe-3cdaa57919b3))
   (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/Display_OLED_SSD1306_128x64.step"
-    (offset (xyz 0 0 2.5))
+    (offset (xyz 0 0 7))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/Conn_PinSocket_Samtec_SLW-104-01-x-x_1x04_P2.54mm_LowProfile_Vertical.stp"
+    (offset (xyz 0 12 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
   )
 )
