@@ -1,6 +1,6 @@
 (footprint "Conn_Pin_1_TestPoint_SquareBox" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A1FF1A)
+  (tedit 62A24A1B)
   (descr "Resitance 3 pas")
   (tags "R")
   (autoplace_cost180 10)
@@ -13,7 +13,7 @@
     (effects (font (size 0.5 0.5) (thickness 0.125)))
     (tstamp 5eaa7f24-1bd2-40c1-adb1-f5b4e8428590)
   )
-  (fp_text user "**" (at 0 1.651) (layer "B.SilkS")
+  (fp_text user "**" (at 0 1.651) (layer "B.SilkS") hide
     (effects (font (size 0.8128 0.8128) (thickness 0.15)) (justify mirror))
     (tstamp a0d4af2a-5ad8-4ae9-8a99-bcd09d81ac73)
   )
