@@ -1,6 +1,6 @@
 (footprint "BatteryHeader_JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_Dual_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A2C5CF)
+  (tedit 62A2F0FD)
   (descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
   (tags "connector JST PH top entry battery header")
   (attr through_hole)
