@@ -1,6 +1,6 @@
 (footprint "MCU_ProMicro_SolderJumper_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A34EAD)
+  (tedit 62A5F5B3)
   (descr "Solder-jumper reversible Pro Micro footprint KB2040")
   (tags "promicro ProMicro reversible solder jumper KB2040")
   (attr through_hole)

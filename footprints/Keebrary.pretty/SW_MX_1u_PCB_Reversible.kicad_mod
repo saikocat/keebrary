@@ -1,6 +1,6 @@
 (footprint "SW_MX_1u_PCB_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A42ABB)
+  (tedit 62A5F273)
   (descr "Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf")
   (tags "Cherry MX keyswitch 1.00u PCB")
   (attr through_hole)
@@ -53,9 +53,14 @@
   (pad "1" thru_hole circle (at 3.81 -2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp a603cde8-11d8-4d7e-aa45-406fd5eee6d3))
   (pad "2" thru_hole circle (at -2.54 -5.08) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 5aba509c-dfb3-4b8a-82e7-090c82c86144))
   (pad "2" thru_hole circle (at -3.81 -2.54) (size 2.2 2.2) (drill 1.5) (layers *.Cu *.Mask) (tstamp 955779e2-83a3-4f96-ac95-93f387ae09ea))
-  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/SW_Cherry_MX_5pins_PCB.step"
+  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/SW_Cherry_MX_5pins_PCB.step" hide
     (offset (xyz 7.275 7.25 6))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 180 0))
+  )
+  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/SW_Cherry_MX_5pins_PCB_LowFidelity.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
   )
 )
