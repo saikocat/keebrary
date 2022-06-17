@@ -70,8 +70,8 @@
   (pad "7" smd rect (at 2.55 -7.2) (size 0.7 3.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 9aaa21c7-7826-4162-800c-13b5032b41fc))
   (pad "8" smd rect (at 3.57 -7.2) (size 0.7 3.2) (layers "B.Cu" "B.Paste" "B.Mask") (tstamp 8c56d244-e697-4982-a88f-7b1aa5044513))
   (pad "8" smd rect (at -3.57 -7.2) (size 0.7 3.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 90e7e48f-7cc2-43d1-97b0-5f21be91b5ef))
-  (pad "SHIELD1" thru_hole oval (at -8.05 0) (size 1.508 3.016) (drill oval 1 2.4) (layers *.Cu *.Mask) (tstamp 6fe8fa32-32ab-40d4-b1c2-f8724ff54f1f))
-  (pad "SHIELD2" thru_hole oval (at 8.05 0) (size 1.508 3.016) (drill oval 1 2.4) (layers *.Cu *.Mask) (tstamp c1a4a3f7-a0f6-47d5-ab5d-56c127e16e60))
+  (pad "SH" thru_hole oval (at -8.05 0) (size 1.508 3.016) (drill oval 1 2.4) (layers *.Cu *.Mask) (tstamp 6fe8fa32-32ab-40d4-b1c2-f8724ff54f1f))
+  (pad "SH" thru_hole oval (at 8.05 0) (size 1.508 3.016) (drill oval 1 2.4) (layers *.Cu *.Mask) (tstamp c1a4a3f7-a0f6-47d5-ab5d-56c127e16e60))
   (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/Conn_RJ45_WURTH_634108150321.step"
     (offset (xyz 0 -0.5 3))
     (scale (xyz 1 1 1))
