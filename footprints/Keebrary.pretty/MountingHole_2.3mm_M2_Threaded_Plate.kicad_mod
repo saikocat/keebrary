@@ -1,0 +1,16 @@
+(footprint "MountingHole_2.3mm_M2_Threaded_Plate" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62AE7FA4)
+  (descr "Mounting Hole 2.3mm, no annular, M2")
+  (tags "mounting hole 2.3mm no annular m2")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "Ref**" (at 1.6 1.38) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 148f7efa-dff0-4acd-afd1-02d350c06108)
+  )
+  (fp_text value "Val**" (at 0 0.55) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6fac9f0c-05a2-4ddf-a178-12e4558d1182)
+  )
+  (pad "" thru_hole circle (at 0 0) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask) (tstamp 94b35258-6e08-436d-9604-f516d57c2619))
+)
