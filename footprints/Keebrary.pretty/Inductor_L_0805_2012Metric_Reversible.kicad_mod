@@ -1,6 +1,6 @@
 (footprint "Inductor_L_0805_2012Metric_Reversible" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62A9F53C)
+  (tedit 62B2DA92)
   (descr "SMD Resistor 0805 (2012 Metric)")
   (attr smd)
   (fp_text reference "REF**" (at 2.182 0) (layer "F.SilkS")
@@ -75,5 +75,10 @@
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
+  )
+  (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+    (offset (xyz 0 0 -2))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -180 0 0))
   )
 )
