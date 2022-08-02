@@ -1,0 +1,86 @@
+(footprint "Display_OLED_SSD1306_128x32" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 62E8CD32)
+  (descr "OLED SSD1306 128x32 i2c")
+  (tags "OLED SSD1306 128x32 i2c")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 2.25 180) (layer "F.Fab")
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp d46ec934-cd50-49ac-91b3-ac7a80678293)
+  )
+  (fp_text value "${REFERENCE}" (at 0 2.25) (layer "F.SilkS")
+    (effects (font (size 0.8128 0.8128) (thickness 0.15)))
+    (tstamp f667c96a-9a3e-442a-8076-64db20abd091)
+  )
+  (fp_text user "SDA" (at -4.025 -2.025 180) (layer "Dwgs.User")
+    (effects (font (size 1 0.7) (thickness 0.15)))
+    (tstamp 0b0b9f0b-3848-4cdd-b8be-da671bdd0e69)
+  )
+  (fp_text user "SCL" (at -1.358 -2.025 180) (layer "Dwgs.User")
+    (effects (font (size 1 0.7) (thickness 0.15)))
+    (tstamp 0fe0435b-29be-4622-b647-0ca494ccbde2)
+  )
+  (fp_text user "VCC" (at 1.182 -2.025 180) (layer "Dwgs.User")
+    (effects (font (size 1 0.7) (thickness 0.15)))
+    (tstamp 146c9add-d605-42c6-a743-589c81b9cb4a)
+  )
+  (fp_text user "GND" (at 3.722 -2.025) (layer "Dwgs.User")
+    (effects (font (size 1 0.7) (thickness 0.15)))
+    (tstamp 94ef9770-7825-4060-8583-1c8aaef18ed0)
+  )
+  (fp_text user "Display_OLED_SSD1306_128x32" (at 0 -5.05) (layer "F.Fab")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 52b62cf0-e7ff-4e1f-86d5-f984c192f51a)
+  )
+  (fp_line (start 4.91 1.1) (end -4.91 1.1) (layer "F.SilkS") (width 0.16) (tstamp 06f37801-f68b-4827-868c-7f6344c44559))
+  (fp_line (start -4.91 1.1) (end -4.91 -1.1) (layer "F.SilkS") (width 0.16) (tstamp 11515c80-84c9-4eda-bb67-8fda12342aca))
+  (fp_line (start 4.91 -1.1) (end 4.91 1.1) (layer "F.SilkS") (width 0.16) (tstamp 3b98cdf1-cb59-4b3d-bf27-5c751394d753))
+  (fp_line (start 2.54 1.1) (end 2.54 -1.1) (layer "F.SilkS") (width 0.16) (tstamp 4dffb383-2d7f-449e-8557-c37269bb75a4))
+  (fp_line (start -4.91 -1.1) (end 4.91 -1.1) (layer "F.SilkS") (width 0.16) (tstamp 8303c148-461b-41e3-8087-b9e99bbc5814))
+  (fp_line (start -6 1.27) (end 6 1.27) (layer "Dwgs.User") (width 0.12) (tstamp 0b2b11e4-4d6a-43ed-b60b-4e506d2fe100))
+  (fp_line (start -6 -36.73) (end 6 -36.73) (layer "Dwgs.User") (width 0.12) (tstamp 20c25169-0704-4130-a901-b684021c9c84))
+  (fp_line (start -6 1.27) (end -6 -36.73) (layer "Dwgs.User") (width 0.12) (tstamp 4bcf3a6a-a851-4a29-ad2f-463d02d74fcf))
+  (fp_line (start 6 -36.73) (end 6 1.27) (layer "Dwgs.User") (width 0.12) (tstamp 97a20431-9c47-49f4-bf9f-3629fd202404))
+  (fp_line (start -4.66 -0.85) (end 4.66 -0.85) (layer "B.CrtYd") (width 0.05) (tstamp 6a86b502-d4eb-4e19-8b62-d0afa8b43424))
+  (fp_line (start -4.66 0.85) (end -4.66 -0.85) (layer "B.CrtYd") (width 0.05) (tstamp 9393ed2d-91ed-4cfd-ad11-85f37c0ecb07))
+  (fp_line (start 4.66 0.85) (end -4.66 0.85) (layer "B.CrtYd") (width 0.05) (tstamp b9894b1a-2b9a-4d26-b561-cbb2fce9f4d5))
+  (fp_line (start 4.66 -0.85) (end 4.66 0.85) (layer "B.CrtYd") (width 0.05) (tstamp f39a6ef3-c9d1-4793-8432-db2450090b97))
+  (fp_line (start 4.66 -0.85) (end 4.66 0.85) (layer "F.CrtYd") (width 0.05) (tstamp 090216cf-f117-439c-a610-c043a0fbdae7))
+  (fp_line (start 4.66 0.85) (end -4.66 0.85) (layer "F.CrtYd") (width 0.05) (tstamp 454c530d-50a0-4700-a79e-ad09f75f3fb7))
+  (fp_line (start -4.66 -0.85) (end 4.66 -0.85) (layer "F.CrtYd") (width 0.05) (tstamp 4d74de08-ae92-4d60-92b6-e29c2f2419d4))
+  (fp_line (start -4.66 0.85) (end -4.66 -0.85) (layer "F.CrtYd") (width 0.05) (tstamp 9ef92e9b-5a49-4d0a-b810-5a1bf2be1573))
+  (pad "1" thru_hole rect (at 3.81 0 180) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 4fc9a4dc-7567-4951-a0fb-f5f3964414de))
+  (pad "2" thru_hole circle (at 1.27 0 180) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp 9d7b1104-9c94-4724-94b7-8e146c08c62e))
+  (pad "3" thru_hole circle (at -1.27 0 180) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp b760eed3-9072-4382-ae03-a8fd70f59dac))
+  (pad "4" thru_hole circle (at -3.81 0 180) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask) (tstamp ed4b2a60-bbce-4586-a77e-c24626d85570))
+  (group "" (id 121afa87-125d-407d-bb09-fab51f200b3f)
+    (members
+      06f37801-f68b-4827-868c-7f6344c44559
+      090216cf-f117-439c-a610-c043a0fbdae7
+      0b0b9f0b-3848-4cdd-b8be-da671bdd0e69
+      0fe0435b-29be-4622-b647-0ca494ccbde2
+      11515c80-84c9-4eda-bb67-8fda12342aca
+      146c9add-d605-42c6-a743-589c81b9cb4a
+      3b98cdf1-cb59-4b3d-bf27-5c751394d753
+      454c530d-50a0-4700-a79e-ad09f75f3fb7
+      4d74de08-ae92-4d60-92b6-e29c2f2419d4
+      4dffb383-2d7f-449e-8557-c37269bb75a4
+      4fc9a4dc-7567-4951-a0fb-f5f3964414de
+      6a86b502-d4eb-4e19-8b62-d0afa8b43424
+      8303c148-461b-41e3-8087-b9e99bbc5814
+      9393ed2d-91ed-4cfd-ad11-85f37c0ecb07
+      94ef9770-7825-4060-8583-1c8aaef18ed0
+      9d7b1104-9c94-4724-94b7-8e146c08c62e
+      9ef92e9b-5a49-4d0a-b810-5a1bf2be1573
+      b760eed3-9072-4382-ae03-a8fd70f59dac
+      b9894b1a-2b9a-4d26-b561-cbb2fce9f4d5
+      ed4b2a60-bbce-4586-a77e-c24626d85570
+      f39a6ef3-c9d1-4793-8432-db2450090b97
+    )
+  )
+  (model "${KICAD_USER_KEEBRARY_DIR}/3dmodels/Keebrary.3dshapes/Display_OLED_SSD1306_091_128x32.stp"
+    (offset (xyz 0 17.5 6))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 -90))
+  )
+)
